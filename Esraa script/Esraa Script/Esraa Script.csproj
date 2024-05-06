@@ -9,10 +9,10 @@
 
   <ItemGroup>
     <Reference Include="CalithaLib">
-      <HintPath>..\..\..\GoldParserEngine_v1.13_bin\CalithaLib.dll</HintPath>
+      <HintPath>..\..\GoldParserEngine_v1.13_bin\CalithaLib.dll</HintPath>
     </Reference>
     <Reference Include="GoldParserEngine">
-      <HintPath>..\..\..\GoldParserEngine_v1.13_bin\GoldParserEngine.dll</HintPath>
+      <HintPath>..\..\GoldParserEngine_v1.13_bin\GoldParserEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
 

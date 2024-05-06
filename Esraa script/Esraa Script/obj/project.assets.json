@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Esraa Gamal\\Downloads\\Esraa script\\Esraa Script\\Esraa Script\\Esraa Script.csproj",
+      "projectUniqueName": "C:\\Users\\Esraa Gamal\\Downloads\\Esraa script\\Esraa Script\\Esraa Script.csproj",
       "projectName": "Esraa Script",
-      "projectPath": "C:\\Users\\Esraa Gamal\\Downloads\\Esraa script\\Esraa Script\\Esraa Script\\Esraa Script.csproj",
+      "projectPath": "C:\\Users\\Esraa Gamal\\Downloads\\Esraa script\\Esraa Script\\Esraa Script.csproj",
       "packagesPath": "C:\\Users\\Esraa Gamal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Esraa Gamal\\Downloads\\Esraa script\\Esraa Script\\Esraa Script\\obj\\",
+      "outputPath": "C:\\Users\\Esraa Gamal\\Downloads\\Esraa script\\Esraa Script\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Esraa Gamal\\AppData\\Roaming\\NuGet\\NuGet.Config",
