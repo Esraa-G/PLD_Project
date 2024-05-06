@@ -1,0 +1,146 @@
+"Name"     ='Esraa Script'
+"Author"   ='Esraa Gamal'
+"About"    ='This is a python based programming language'
+"Start Symbol" = <program>
+
+!___________________________________________ ==Character sets==  _____________________________________________
+   
+
+{String Chars} = {Printable} + {HT} - ["\\"]
+!___________________________________________ ==Terminals==  _________________________________________________
+
+
+Var      = [_]|{letter}{Alphanumeric}*
+Digit    =('+'|'-')? {digit}+('.'{digit}+)? ('e'| ('+'|'-'){digit}+'^'('+'|'-'){digit}+('.'{letter}+)?)?
+String   = '"' ( {String Chars} | '\' {Printable} )* '"' 
+
+!___________________________________________ == Rules_Of_ 'Esraa Script' _Grammar ==  ______________________________________________________
+   
+!My grammar starts here
+
+<program>::= 'Hi!' <body> 'Bye!'
+                    
+<body>  ::= <stmt_list>
+           
+<stmt_list>        ::=<stmt_list> <script>
+                    | <script>
+
+            
+<script>           ::= <Assign_Statement>
+                    |<print_statement>
+                    |<If_Statement> 
+                    |<While_Statement>
+                    |<do_while_statement>
+                    |<for_statement>
+                    |<Function_Def>
+                    |<Return_Statement>
+                    |<function_call>
+                    !<switch_statement>   Note: There's no switch in python but as it's required, we're gonna use (if--elif--else ) as an alternative
+  
+!___________________________________________ ==Assign_statement==  ____________________________________________
+   
+<Assign_Statement>  ::= <var> '=' <expr> 
+
+<var>               ::= Var
+                     
+
+                    
+<expr>              ::= <expr> '+' <term>
+                       |<expr> '-' <term>
+                       |<term>
+             
+<term>             ::= <term>  '*' <factor>
+                      |<term>  '/' <factor>
+                      |<term>  '%' <factor>
+                      |<factor>
+                      |<factor> '++'           
+                      |<factor> '--' 
+                   
+<factor>           ::= <factor>'**' <exp>
+                      |<exp>
+                   
+<exp>              ::= '('<expr>')'
+                      |<var>
+                      |<digit>
+                     
+                    
+<digit>              ::= Digit
+
+
+                    
+<expr_List> ::= <expr>
+                    |<expr> <expr_List> 
+
+
+                    
+                    
+!___________________________________________ ==<print_statement>==  _________________________________________
+
+
+<print_statement>  ::= print '('  <expr_List>  ')' 
+                    |print '('<string> ')'
+                    
+<string>           ::= String
+
+                    
+!___________________________________________ ==If_statement==  ______________________________________________
+   
+<If_Statement>     ::= if'(' <cond> ')' ':' <stmt_list>
+                     |if '(' <cond> ')' ':' <stmt_list> <elif_List>
+                     |if '(' <cond> ')' ':' <stmt_list> <Else_Statement>
+                     |if '(' <cond> ')' ':' <stmt_list> <elif_List> <Else_Statement>
+                     
+<cond>            ::=<expr> <op> <expr>
+                   
+<op>              ::= '<' | '>' | '<=' | '>=' | '==' | '!='
+
+
+<elif_List>       ::= <elif_List> <elif>
+                     |<elif> 
+
+<elif>            ::= elif '(' <cond>  ')' ':' <stmt_list>
+
+<Else_Statement>  ::= else ':' <stmt_list>
+
+
+!___________________________________________ ==While_statement==  ___________________________________________
+
+<While_Statement> ::= while '(' <cond>    ')' ':' <stmt_list>
+                   
+                      
+!___________________________________________ ==DO_While_statement==  _________________________________________
+
+<do_while_statement>::= do ':' <stmt_list> while '(' <cond> ')'
+                     
+
+!___________________________________________ ==For_statement==  ______________________________________________
+<for_statement>    ::= for '(' <initializer> ';' <cond> ';' <step> ')' ':'  <stmt_list>
+
+<Initializer>      ::= <Assign_Statement> 
+                    
+
+<step>             ::= <expr>
+
+!___________________________________________ ==<Function_Definition>==  ______________________________________
+                   
+<Function_Def>    ::= def <var> '(' <Parameter_List> ')' ':' <stmt_list>
+
+<Parameter_List>   ::= <var> 
+                      |<var> <Parameter_List>
+ 
+
+!___________________________________________ ==<Return_Statement>==  _________________________________________
+                   
+<Return_Statement> ::= return <expr>
+
+!___________________________________________ ==<function_call>==  _____________________________________________
+                   
+
+<function_call>::=  <var> '(' <expr_List> ')'
+                
+!___________________________________________ ==< _End _Of _'Esraa Script'_ >==  ________________________________
+
+
+
+
+

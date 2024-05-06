@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Esraa Gamal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Esraa Gamal\\.nuget\\packages"
+    ]
+  }
+}

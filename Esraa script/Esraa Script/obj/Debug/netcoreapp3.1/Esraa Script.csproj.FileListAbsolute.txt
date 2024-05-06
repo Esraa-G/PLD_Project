@@ -1,0 +1,20 @@
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\bin\Debug\netcoreapp3.1\Esraa Script.exe
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\bin\Debug\netcoreapp3.1\Esraa Script.deps.json
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\bin\Debug\netcoreapp3.1\Esraa Script.runtimeconfig.json
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\bin\Debug\netcoreapp3.1\Esraa Script.runtimeconfig.dev.json
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\bin\Debug\netcoreapp3.1\Esraa Script.dll
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\bin\Debug\netcoreapp3.1\Esraa Script.pdb
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\bin\Debug\netcoreapp3.1\CalithaLib.dll
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\bin\Debug\netcoreapp3.1\GoldParserEngine.dll
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.csproj.AssemblyReference.cache
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa_Script.Esraa_Script.resources
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa_Script.Properties.Resources.resources
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.csproj.GenerateResource.cache
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.AssemblyInfoInputs.cache
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.AssemblyInfo.cs
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.csproj.CoreCompileInputs.cache
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.csproj.CopyComplete
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.dll
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.pdb
+C:\Users\Esraa Gamal\Downloads\Esraa script\Esraa Script\Esraa Script\obj\Debug\netcoreapp3.1\Esraa Script.genruntimeconfig.cache
