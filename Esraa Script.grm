@@ -1,6 +1,6 @@
 "Name"     ='Esraa Script'
 "Author"   ='Esraa Gamal'
-"About"    ='This is a python based programming language'
+"About"    ='This is a python based programming language with some changes in FOR loop '
 "Start Symbol" = <program>
 
 !___________________________________________ ==Character sets==  _____________________________________________
